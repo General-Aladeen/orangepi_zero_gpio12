@@ -4,8 +4,7 @@ from pyA20.gpio import port
 
 #gpio functions.
 gpio.init ()
-
-Set #gpio.
+#gpio.
 led = port.PA8
 gpio.setcfg (led, gpio.OUTPUT)
 
