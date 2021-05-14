@@ -43,7 +43,7 @@ gpio.setcfg (led4B, gpio.OUTPUT)
 i = 0
 
 # set the status of the leds (high / low):
-while i != 5:
+while true:
         gpio.output (led1R, gpio.LOW)
         gpio.output (led2R, gpio.LOW)
         gpio.output (led3R, gpio.LOW)
