@@ -24,7 +24,7 @@ __maintainer__ = __author__
 __email__ = "support@olimex.com"
 
 
-led = port.PH2 #Updated mapping 
+led = port.PH12 #Updated mapping 
 
 gpio.init()
 gpio.setcfg(led, gpio.OUTPUT)
