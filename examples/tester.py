@@ -6,7 +6,7 @@ from pyA20.gpio import port
 gpio.init ()
 
 
-led = port.PA20
+led = port.PA21
 gpio.setcfg (led, gpio.OUTPUT)
 
 # set the status of the leds (high / low)
