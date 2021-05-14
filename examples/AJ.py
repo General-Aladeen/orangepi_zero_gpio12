@@ -7,7 +7,7 @@ gpio.init ()
 
 #LED 1 (TOP RIGHT)
 led1R=port.PA0
-#led1G=port.PA1
+led1G=port.PA1
 led1B=port.PA3
 #LED 2 (TOP RIGHT)
 led2R = port.PA13
@@ -25,7 +25,7 @@ led4B = port.PA14
 
 #----------Init----------#
 gpio.setcfg (led1R, gpio.OUTPUT)
-#gpio.setcfg (led1G, gpio.OUTPUT)
+gpio.setcfg (led1G, gpio.OUTPUT)
 gpio.setcfg (led1B, gpio.OUTPUT)
 
 gpio.setcfg (led2R, gpio.OUTPUT)
