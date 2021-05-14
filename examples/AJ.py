@@ -6,7 +6,7 @@ from pyA20.gpio import port
 gpio.init ()
 
 
-led = port.PA3
+led = port.PA4
 led1 = port.PA2
 gpio.setcfg (led, gpio.OUTPUT)
 gpio.setcfg (led1, gpio.OUTPUT)
