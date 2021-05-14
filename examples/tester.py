@@ -2,10 +2,10 @@ from time import sleep
 from pyA20.gpio import gpio
 from pyA20.gpio import port
 
-Start #gpio functions.
+
 gpio.init ()
 
-Set #gpio.
+
 led = port.PA6
 gpio.setcfg (led, gpio.OUTPUT)
 
