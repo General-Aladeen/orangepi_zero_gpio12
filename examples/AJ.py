@@ -63,7 +63,7 @@ while True:
         gpio.output (led2B, gpio.HIGH)
         gpio.output (led3B, gpio.HIGH)
         gpio.output (led4B, gpio.HIGH)
-        sleep (1)
+        sleep (0.1)
         i = i+1
         
         
