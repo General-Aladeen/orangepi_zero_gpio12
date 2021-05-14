@@ -14,7 +14,7 @@ gpio.setcfg (led1, gpio.OUTPUT)
 while True:
         gpio.output (led, gpio.HIGH)
         gpio.output (led1, gpio.HIGH)
-        sleep (1)
+        sleep (0.5)
         gpio.output (led, gpio.LOW)
         gpio.output (led1, gpio.LOW)
         sleep (1)
