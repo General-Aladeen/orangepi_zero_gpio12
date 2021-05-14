@@ -45,7 +45,7 @@ i = 0
 # set the status of the leds (high / low):
 while True:
         gpio.output (led1R, gpio.LOW)
-        gpio.output (led1R, gpio.High)
+        gpio.output (led1R, gpio.HIGH)
         sleep (0.1)
         gpio.output (led12R, gpio.LOW)
         gpio.output (led12R, gpio.HIGH)
