@@ -25,20 +25,20 @@ led4R = port.PA16
 
 #----------Init----------#
 gpio.setcfg (led1R, gpio.OUTPUT)
-gpio.setcfg (led1G, gpio.OUTPUT)
-gpio.setcfg (led1B, gpio.OUTPUT)
+#gpio.setcfg (led1G, gpio.OUTPUT)
+#gpio.setcfg (led1B, gpio.OUTPUT)
 
 gpio.setcfg (led2R, gpio.OUTPUT)
-gpio.setcfg (led2G, gpio.OUTPUT)
-gpio.setcfg (led2B, gpio.OUTPUT)
+#gpio.setcfg (led2G, gpio.OUTPUT)
+#gpio.setcfg (led2B, gpio.OUTPUT)
 
 gpio.setcfg (led3R, gpio.OUTPUT)
-gpio.setcfg (led3G, gpio.OUTPUT)
-gpio.setcfg (led3B, gpio.OUTPUT)
+#gpio.setcfg (led3G, gpio.OUTPUT)
+#gpio.setcfg (led3B, gpio.OUTPUT)
 
 gpio.setcfg (led4R, gpio.OUTPUT)
-gpio.setcfg (led4G, gpio.OUTPUT)
-gpio.setcfg (led4B, gpio.OUTPUT)
+#gpio.setcfg (led4G, gpio.OUTPUT)
+#gpio.setcfg (led4B, gpio.OUTPUT)
 
 i = 0
 
