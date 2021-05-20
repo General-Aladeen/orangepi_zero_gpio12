@@ -44,23 +44,23 @@ i = 0
 
 # set the status of the leds (high / low):
 while True:
-        gpio.output (led1G, gpio.LOW)
+        gpio.output (led1R, gpio.LOW)
         
         sleep (0.1)
-        gpio.output (led1G, gpio.HIGH)
+        gpio.output (led1R, gpio.HIGH)
      
-        gpio.output (led2G, gpio.LOW)
+        gpio.output (led2R, gpio.LOW)
         sleep (0.1)
-        gpio.output (led2G, gpio.HIGH)
+        gpio.output (led2R, gpio.HIGH)
         
-        gpio.output (led4G, gpio.LOW)
+        gpio.output (led4R, gpio.LOW)
         sleep (0.1)
-        gpio.output (led4G, gpio.HIGH)
+        gpio.output (led4R, gpio.HIGH)
        
-        gpio.output (led3G, gpio.LOW)
+        gpio.output (led3R, gpio.LOW)
 
         sleep (0.1)
-        gpio.output (led3G, gpio.HIGH)
+        gpio.output (led3R, gpio.HIGH)
  
         i = i+1
         
